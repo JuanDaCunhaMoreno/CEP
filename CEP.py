@@ -25,11 +25,11 @@ while True:
                 print('CEP não encontrado.')
             else:
                 print('\n Informações do CEP:')
-                print(f'CEP: {data.get('cep')}')
-                print(f'Logradouro: {data.get('logradouro')}')
-                print(f'Bairro: {data.get('bairro')}')
-                print(f'Cidade: {data.get('localidade')}')
-                print(f'Estado: {data.get('uf')}')
+                print(f'CEP: {data.get("cep")}')
+                print(f'Logradouro: {data.get("logradouro")}')
+                print(f'Bairro: {data.get("bairro")}')
+                print(f'Cidade: {data.get("localidade")}')
+                print(f'Estado: {data.get("uf")}')
         else:
             print('Erro na requisição. Verifique sua conexão com a internet.')
     
